@@ -3,11 +3,6 @@ package cn.nihan.dto;
 import cn.nihan.entity.SuccessKilled;
 import cn.nihan.enums.SeckillStatEnum;
 
-/**
- * @author nihan
- * @date 2018/5/15   19:56
- * 封装执行秒杀后的结果:是否秒杀成功
- */
 public class SeckillExecution {
     private long seckillId;
 

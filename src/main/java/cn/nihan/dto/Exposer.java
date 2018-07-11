@@ -1,9 +1,5 @@
 package cn.nihan.dto;
 
-/**
- * @author nihan
- * @date 2018/5/15   19:41
- */
 public class Exposer {
     //是否开启秒杀
     private boolean exposed;

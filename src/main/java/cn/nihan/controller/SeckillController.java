@@ -18,10 +18,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author nihan
- * @date 2018/5/16   11:03
- */
 @Controller
 @RequestMapping("/seckill")//url:模块/资源/{}/细分 /seckill/list
 public class SeckillController {

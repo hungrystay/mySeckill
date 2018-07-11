@@ -20,14 +20,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
-/**
- * @author nihan
- * @date 2018/5/15   21:03
- */
 @Service
 public class SeckillServiceImpl implements SeckillService {
     //日志对象
@@ -66,6 +60,12 @@ public class SeckillServiceImpl implements SeckillService {
                 redisDao.putSeckill(seckill);
             }
         }
+
+        Map hashTable = new Hashtable();
+        Map hashMap = new HashMap();
+        List list = new LinkedList();
+        List vector = new Vector();
+
         Date startTime = seckill.getStartTime();//秒杀开始时间
         Date endTime = seckill.getEndTime();//秒杀结束时间
         Date nowTime = new Date();//当前时间

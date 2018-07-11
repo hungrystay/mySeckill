@@ -9,8 +9,6 @@ import cn.nihan.exception.SeckillException;
 
 import java.util.List;
 
-
-
 public interface SeckillService {
     /**
      * 查询全部的秒杀记录

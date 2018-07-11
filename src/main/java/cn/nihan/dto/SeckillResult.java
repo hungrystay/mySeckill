@@ -1,9 +1,6 @@
 package cn.nihan.dto;
 
 /**
- * @author nihan
- * @date 2018/5/15   20:24
- *
  *将所有的ajax请求返回类型，全部封装成json数据
  */
 public class SeckillResult<T> {
