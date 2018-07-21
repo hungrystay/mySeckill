@@ -12,10 +12,7 @@ import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by nihan on 18/05/15.
- * 配置spring和junit整合，这样junit在启动时就会加载spring容器
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 //告诉junit spring的配置文件
 @ContextConfiguration({"classpath:spring/spring-dao.xml"})

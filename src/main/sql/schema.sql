@@ -30,7 +30,7 @@ values
 insert into
   seckill(name, number, start_time, end_time)
 values
-  ('1000元秒杀iphone7',100,'2018-6-01 00:00:00', '2018-6-30 00:00:00');
+  ('1000元秒杀iphone7',100,'2018-6-01 00:00:00', '2018-7-30 00:00:00');
 
 insert into
   seckill(name, number, start_time, end_time)
